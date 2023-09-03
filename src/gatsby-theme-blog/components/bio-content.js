@@ -1,5 +1,4 @@
 import React from "react"
-import { Themed } from "theme-ui"
 
 /**
  * Change the content to add your own bio
@@ -8,11 +7,8 @@ import { Themed } from "theme-ui"
 export default function Bio() {
   return (
     <>
-      This is where <Themed.a href="http://example.com/">your name</Themed.a>
-      {` `}
-      goes.
-      <br />
-      Or whatever, you make the rules.
+      Welcome to my blog. I'll be writing here about what I find interesting.<br />
+      The biggest room in the world is the room for inmprovement.
     </>
   )
 }
